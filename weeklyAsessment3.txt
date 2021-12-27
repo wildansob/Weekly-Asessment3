@@ -11,5 +11,7 @@ Jawaban :
     perbedaannya adalah state bersifat private dan hanya relevan terhadap component itu sendiri .
     Sedangkan props valuenya dilempar dari component lain
 
-4.  - user membuka aplikasi
-    - 
+4.  	-Pengguna membuka aplikasi.
+	-Aplikasi memuat beberapa status autentikasi dari penyimpanan persisten terenkripsi (misalnya, SecureStore).
+	-Saat status telah dimuat, pengguna disajikan dengan layar autentikasi atau aplikasi utama, bergantung pada apakah status autentikasi yang valid telah dimuat.
+	-Saat pengguna keluar, status autentikasi dihapus dan mengirimkannya kembali ke layar autentikasi.
