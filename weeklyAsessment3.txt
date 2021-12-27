@@ -1,0 +1,15 @@
+1. Buat sebuah class Student yang memiliki method untuk input properti nilai.
+2. Web Portofolio sederhana dengan React.
+3. Jelaskan apa itu state dan props, dan perbedaannya!
+4. Buatlah algoritma mengenai authentication pada react navigation.
+
+Jawaban :
+
+3.  state adalah suatu data yang hanya dapat diakses oleh komponen itu sendiri
+    props adalah sebuah property yang bersifat read only
+
+    perbedaannya adalah state bersifat private dan hanya relevan terhadap component itu sendiri .
+    Sedangkan props valuenya dilempar dari component lain
+
+4.  - user membuka aplikasi
+    - 

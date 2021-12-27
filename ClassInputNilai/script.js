@@ -1,30 +1,15 @@
-class Student extends  {
-    constructor(props) {
-      super(props);
-      this.state = {value: ''};
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
+
+class Student {
+    constructor(nilai) {
+      this.nilai = nilai;
     }
   
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
-      event.preventDefault();
-    }
-  
-    render() {
-      return (
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Name:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
-      );
+    inputNilai() {
+      console.log(this.nilai);
     }
   }
+  
+  let student = new Student(92);
+  student.inputNilai();
+
+  
